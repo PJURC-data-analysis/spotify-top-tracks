@@ -1,4 +1,5 @@
 # Spotify Top Tracks Analysis (2020)
+[View Notebook](https://github.com/PJURC-data-analysis/spotify-top-tracks/blob/main/notebooks/spotify-top-tracks.ipynb)
 
 An exploratory data analysis of Spotify's top 50 tracks from 2020, investigating the musical characteristics that contribute to a song's commercial success. This analysis uses correlation methods to identify key musical elements that are common among hit songs, providing insights for music producers and industry professionals.
 
