@@ -1,3 +1,4 @@
+![banner](https://github.com/PJURC-data-analysis/spotify-top-tracks/blob/main/media/banner.png)
 # Spotify Top Tracks Analysis (2020)
 [View Notebook](https://github.com/PJURC-data-analysis/spotify-top-tracks/blob/main/notebooks/spotify-top-tracks.ipynb)
 
