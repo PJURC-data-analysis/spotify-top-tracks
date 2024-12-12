@@ -1,4 +1,5 @@
 ![banner](https://github.com/PJURC-data-analysis/spotify-top-tracks/blob/main/media/banner.png)
+
 # Spotify Top Tracks Analysis (2020)
 [View Notebook](https://github.com/PJURC-data-analysis/spotify-top-tracks/blob/main/notebooks/spotify-top-tracks.ipynb)
 
@@ -62,6 +63,49 @@ What musical elements are most strongly associated with hit songs on Spotify, an
 
 ### Prerequisites
 ```python
+matplotlib==3.9.3
 numpy==2.2.0
 pandas==2.2.3
+seaborn==0.13.2
 ```
+
+### Installation & Usage
+```bash
+git clone git@github.com:PJURC-data-analysis/spotify-top-tracks.git
+cd spotify-top-tracks
+pip install -r requirements.txt
+jupyter notebook "Spotify Top Tracks.ipynb"
+```
+
+## Project Structure
+```
+coursera-analysis/
+│   README.md
+│   requirements.txt
+│   Spotify Top Tracks.ipynb
+└── data/
+    └── spotify_top_tracks.csv
+```
+
+## Strategic Recommendations
+1. Consider the elements of the Pop genre, as its formula is still popular among listeners.
+2. Make sure the song is danceable; A high rating is prevalent in the charts.
+3. For added energy, consider adding more loudness, but don't overdo it.
+4. Instrumentality is not a must-have for a hit song. Electronic music and vocal-driven Hip-Hop/Rap score high in danceability
+
+## Future Improvements
+1. Additional Numeric Variables
+   * Tempo - BPM of the song
+   * Lyrical complexity score
+
+2. Additional Analysis
+   * Gender influence in specific genre success
+   * Most successful sub-genres of pop
+
+3. Dataset Extensions
+   * Top 100 charts
+   * Charts by region / continent
+
+## Acknowledgments
+- Kaggle for dataset provision
+- Spotify for the top tracks listing
